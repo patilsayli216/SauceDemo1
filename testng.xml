@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.SauceDemo1.TestPackage.TC07VerifyCancelOrder"/>
+      <class name="com.SauceDemo1.TestPackage.TC04VerifyMultipleBagProduct"/>
+      <class name="com.SauceDemo1.TestPackage.TestBase_Class"/>
+      <class name="com.SauceDemo1.TestPackage.TC02VerifyLogout"/>
+      <class name="com.SauceDemo1.TestPackage.TC03VerifyBagProduct"/>
+      <class name="com.SauceDemo1.TestPackage.TC01VerifyLogin"/>
+      <class name="com.SauceDemo.UtilityPackage.Excelsheet"/>
+      <class name="com.SauceDemo1.TestPackage.TC08VerifyFilterList"/>
+      <class name="com.SauceDemo1.TestPackage.TC05VerifyRemoveProduct"/>
+      <class name="com.SauceDemo1.TestPackage.TC06VerifyCheckout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

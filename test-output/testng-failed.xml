@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.SauceDemo1.TestPackage.TC08VerifyFilterList">
+        <methods>
+          <include name="verifyFilter"/>
+          <include name="loginActivity"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logOutActivity"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestPackage.TC08VerifyFilterList -->
+      <class name="com.SauceDemo1.TestPackage.TC03VerifyBagProduct">
+        <methods>
+          <include name="loginActivity"/>
+          <include name="verifyBagProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logOutActivity"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestPackage.TC03VerifyBagProduct -->
+      <class name="com.SauceDemo1.TestPackage.TC04VerifyMultipleBagProduct">
+        <methods>
+          <include name="loginActivity"/>
+          <include name="setUp"/>
+          <include name="verifyAllBagProduct"/>
+          <include name="tearDown"/>
+          <include name="logOutActivity"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestPackage.TC04VerifyMultipleBagProduct -->
+      <class name="com.SauceDemo1.TestPackage.TC02VerifyLogout">
+        <methods>
+          <include name="loginActivity"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLogout"/>
+          <include name="logOutActivity"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestPackage.TC02VerifyLogout -->
+      <class name="com.SauceDemo1.TestPackage.TC01VerifyLogin">
+        <methods>
+          <include name="loginActivity"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="logOutActivity"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestPackage.TC01VerifyLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
